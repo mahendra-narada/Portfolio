@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1c0678cbef.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 id="logo"><span>M</span>ahendra .</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    </ul>
+            </nav>
+            <div class="header-text">
+                <p>FULL STACK DEVELOPER</p>
+                <h1>Hi, I'm <span>Mahendra</span><br>from Sri Lanka</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- about page -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        I am a passionate Full Stack Developer from Sri Lanka with experience in building robust web applications. 
+                        I specialize in both frontend and backend technologies, delivering scalable and user-friendly solutions. 
+                        Committed to continuous learning and creating impactful digital experiences."
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+    
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Front End</span><br>HTML, CSS, Javascript, Angular , Bootstrap , Flutter</li>
+                            <li><span>Back End</span><br>NodeJs, SpringBoot, Java, Python, Ballerina</span></li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Experience</span><br>Started programming in 2023 and have been working on various web development projects, including full-stack applications.</li>
+                        </ul>
+                    </div>
+                    
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Education</span><br>Currently pursuing a course at the Institute of Computer Technology in Sri Lanka, focusing on software development and programming skills.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Service Page -->
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>
+                        I specialize in building responsive and interactive websites using modern technologies, ensuring your site
+                        performs seamlessly across all devices.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Mobile App Development</h2>
+                    <p>
+                        I provide mobile app development services to create intuitive and engaging apps for both Android and iOS platforms,
+                        tailored to your business needs.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+
+            
+        </div>
+     </div>
+
+     <!-- My Projects -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/waeather app.png">
+                    <div class="layer">
+                        <h3>Weather App</h3>
+                        <p>
+                            "A weather application that provides real-time weather updates for specific locations. It features a clean and intuitive user interface, allowing users to search for cities and view current conditions, temperature, humidity, and a detailed forecast. Ideal for staying prepared for the day ahead or planning trips."
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/pos (2).jpg">
+                    <div class="layer">
+                        <h3>POS System</h3>
+                        <p>
+                
+                
+                            "A robust Point of Sale (POS) system designed to streamline sales and inventory management for businesses.
+                            It offers an intuitive interface for processing transactions, tracking products, and generating sales
+                            reports. Perfect for improving efficiency and enhancing customer experience in retail or hospitality
+                            settings."
+                
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/tripplanner.jpg">
+                    <div class="layer">
+                        <h3>AI Trip Planner</h3>
+                        <p>
+                
+                
+                            An AI-powered Trip Planner that helps users create personalized travel itineraries with ease. It suggests
+                            destinations, plans activities, and organizes accommodations based on user preferences and budgets. Perfect
+                            for making travel planning seamless, efficient, and enjoyable."
+                
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Event Planner</h3>
+                        <p>
+                
+                
+                            An efficient Event Planner tool designed to simplify organizing events of any scale. It helps manage
+                            schedules, venues, guest lists, and budgets, ensuring a seamless and stress-free event planning experience.
+                            Ideal for weddings, corporate events, and personal celebrations."
+                
+                            Let me know if you'd like this refined further!
+                
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!-- Contact Page -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> 4H2YI@example.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +94 77 123 4567</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/mahendra_narada/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/mahendra-narada-2b7157293/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/mahendra-narada"><i class="fa-brands fa-github"></i></a>
+
+                </div>
+                <a href="images/Black and White Simple Business School Graduate Corporate Resume.pdf" download  class="btn">Download CV</a>
+
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+
+                        
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="copyright">
+            <p>Copyright © Mahendra Narada</p>
+            
+        </div>
+
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
